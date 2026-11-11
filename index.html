@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Andrés Olarte Molina · Estudiante de Sistemas Microinformáticos y Redes</title>
+<meta name="description" content="Estudiante de 2º de SMR en Talavera de la Reina. Busco prácticas en empresa (FCT) de 420 horas desde el 15 de febrero de 2027.">
+<meta name="theme-color" content="#0e1a2b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<header class="nav" id="nav">
+  <a class="nav-brand" href="#inicio">Andrés Olarte</a>
+  <nav aria-label="Secciones">
+    <ul class="nav-links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <button class="theme-btn" id="themeBtn" type="button" aria-label="Cambiar entre tema claro y oscuro">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20.4 14.5A8.5 8.5 0 0 1 9.5 3.600a8.500 8.500 0 1 0 10.900 10.900z" fill="currentColor"/></svg>
+  </button>
+</header>
+
+<main>
+
+  <!-- ============ Inicio ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-text">
+      <p class="status"><span class="led" aria-hidden="true"></span>Busco prácticas en empresa desde el 15 de febrero de 2027</p>
+      <h1>
+        <span class="line"><span>Andrés</span></span>
+        <span class="line"><span>Olarte Molina</span></span>
+      </h1>
+      <p class="hero-lead">Estudiante de 2º de Sistemas Microinformáticos y Redes en el IES Ribera del Tajo. Monto servidores, los rompo y los arreglo hasta entender por qué fallaban.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:andresdavid.olartemolina@riberadeltajo.es">Escribirme un correo</a>
+        <a class="btn" href="CV_Andres_Olarte_Molina.pdf" download>Descargar CV en PDF</a>
+      </div>
+      <p class="hero-place">Talavera de la Reina, Castilla-La Mancha</p>
+    </div>
+
+    <div class="hero-node" id="heroNode" aria-hidden="true">
+      <svg class="cables" viewBox="0 0 440 440" preserveAspectRatio="none">
+        <path d="M220 220 C150 170 110 120 66 84"/>
+        <path d="M220 220 C300 170 340 130 378 70"/>
+        <path d="M220 220 C130 250 80 270 36 250"/>
+        <path d="M220 220 C310 260 360 290 404 270"/>
+        <path d="M220 220 C190 310 150 360 110 396"/>
+        <path d="M220 220 C260 320 300 360 330 398"/>
+      </svg>
+      <div class="ring"></div>
+      <img class="portrait" src="foto.jpg" alt="">
+      <span class="tag tag-1" data-depth="18">Linux</span>
+      <span class="tag tag-2" data-depth="26">Proxmox VE</span>
+      <span class="tag tag-3" data-depth="14">Redes locales</span>
+      <span class="tag tag-4" data-depth="22">Windows</span>
+      <span class="tag tag-5" data-depth="30">Hardware</span>
+      <span class="tag tag-6" data-depth="16">Desarrollo web</span>
+    </div>
+  </section>
+
+  <!-- ============ Datos de las prácticas ============ -->
+  <section class="facts reveal" aria-label="Datos de las prácticas">
+    <dl>
+      <div><dt>Qué busco</dt><dd>Prácticas en empresa (FCT)</dd></div>
+      <div><dt>Duración</dt><dd>420 horas, jornada completa</dd></div>
+      <div><dt>Cuándo</dt><dd>Del 15 de febrero a mayo de 2027</dd></div>
+      <div><dt>Papeleo</dt><dd>Convenio gestionado por mi tutora</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============ Sobre mí ============ -->
+  <section class="block" id="sobre-mi">
+    <h2 class="reveal">Sistemas, redes y algo de código de por medio</h2>
+    <div class="about-grid">
+      <div class="about">
+      <p class="reveal">Tengo base en sistemas Windows y Linux, redes locales, montaje de equipos y virtualización, y me defiendo con el desarrollo web. Aprendo probando: levanto máquinas virtuales con un compañero, intentamos romperlas y luego las dejamos como estaban.</p>
+      <p class="reveal">Todavía no he decidido si después del grado medio seguiré por sistemas o por desarrollo, así que quiero aprender en cualquier área: soporte técnico, redes, servidores o programación.</p>
+      <p class="reveal">Antes de los servidores competí en voleibol y encontré comunidad en el skate. De ahí me viene la costumbre de repetir hasta que algo sale.</p>
+      <blockquote class="reveal">“Un ganador es solo un perdedor que lo intentó una vez más.”</blockquote>
+      </div>
+      <figure class="photo photo-tall reveal">
+        <img src="img/redes-cables.jpg" alt="Cables de red azules conectados a un switch" loading="lazy">
+        <figcaption class="float float-e">Redes locales: un 8</figcaption>
+        <span class="float float-f" aria-hidden="true">Windows y Linux</span>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ Experiencia ============ -->
+  <section class="block" id="experiencia">
+    <h2 class="reveal">Dónde he trabajado y aprendido</h2>
+    <div class="exp-grid">
+    <ol class="timeline">
+      <li class="reveal">
+        <p class="when">Octubre de 2026 a hoy</p>
+        <h3>Monitor de robótica educativa</h3>
+        <p class="where">SportCity Center, Talavera de la Reina</p>
+        <p>Doy clases de robótica a niños de 6 a 12 años. Preparo las sesiones con Arduino y Tinkercad y uso mecánicas de Minecraft para explicar electrónica y programación.</p>
+      </li>
+      <li class="reveal">
+        <p class="when">Junio a octubre de 2026</p>
+        <h3>Camarero de catering y eventos</h3>
+        <p class="where">NÜA Eventos, Talavera de la Reina</p>
+        <p>Servicio en caterings y bodas de la empresa de eventos del chef Carlos Maldonado. Atención directa al cliente, trabajo en equipo y ritmo alto de servicio.</p>
+      </li>
+      <li class="reveal">
+        <p class="when">Curso 2025/2026</p>
+        <h3>Prácticas formativas de 1º de SMR</h3>
+        <p class="where">Cop&amp;Arte, Talavera de la Reina (80 horas)</p>
+        <p>Apoyo en reprografía y soporte técnico. Elaboré un informe sobre prevención de riesgos laborales y tendencias en hardware, maquetado en PDF con Python.</p>
+      </li>
+      <li class="reveal">
+        <p class="when">2026</p>
+        <h3>LowCodeCon</h3>
+        <p class="where">Canarias</p>
+        <p>Representé al IES Ribera del Tajo junto a compañeros de SMR en este evento de desarrollo.</p>
+      </li>
+    </ol>
+    <figure class="photo photo-side reveal">
+      <img src="img/robotica-arduino.jpg" alt="Placa Arduino conectada a una placa de pruebas con cables" loading="lazy">
+      <figcaption class="float float-g">Arduino y Tinkercad con niños de 6 a 12 años</figcaption>
+    </figure>
+    </div>
+  </section>
+
+  <!-- ============ Proyectos ============ -->
+  <section class="block" id="proyectos">
+    <h2 class="reveal">Cosas que he construido</h2>
+
+    <article class="project reveal">
+      <a class="shot" href="https://github.com/Andrew8967/Proyecto-Intermodular" target="_blank" rel="noopener" aria-label="Ver el proyecto del servidor en GitHub">
+        <div class="window">
+          <div class="window-bar"><i></i><i></i><i></i><span>Panel de monitorización</span></div>
+          <img src="img/panel-servidor.png" alt="Panel web que muestra el estado del servidor: jugadores conectados, CPU, memoria y temperatura" loading="lazy">
+        </div>
+        <span class="float float-a">Copias cada noche</span>
+        <span class="float float-b">Proxmox VE 9</span>
+      </a>
+      <div class="project-text">
+        <p class="project-kind">Proyecto intermodular de SMR, en desarrollo</p>
+        <h3>Servidor personal con Proxmox VE</h3>
+        <p>Un servidor de bajo coste sobre un mini PC. Cada servicio va en su contenedor Linux: un servidor de Minecraft, un panel web que muestra el estado en tiempo real y copias de seguridad automáticas a un disco externo.</p>
+        <p>La instalación está automatizada con scripts y documentada paso a paso. Lo voy probando en máquinas virtuales antes de llevarlo al equipo real.</p>
+        <ul class="chips"><li>Proxmox</li><li>Debian</li><li>Bash</li><li>Python</li><li>Apache</li></ul>
+        <a class="link" href="https://github.com/Andrew8967/Proyecto-Intermodular" target="_blank" rel="noopener">Ver el código en GitHub</a>
+      </div>
+    </article>
+
+    <article class="project project-flip reveal">
+      <a class="shot" href="https://andrew8967.github.io/SOR-test01/" target="_blank" rel="noopener" aria-label="Abrir el simulador de examen">
+        <div class="window">
+          <div class="window-bar"><i></i><i></i><i></i><span>Simulador de examen</span></div>
+          <img src="img/simulador-examen.png" alt="Página con preguntas tipo test sobre Windows Server y Active Directory" loading="lazy">
+        </div>
+        <span class="float float-c">81 preguntas</span>
+        <span class="float float-d">Active Directory</span>
+      </a>
+      <div class="project-text">
+        <p class="project-kind">Herramienta de estudio</p>
+        <h3>Simulador de examen de Windows Server</h3>
+        <p>Una página para practicar el examen de Sistemas Operativos en Red. Cada intento saca 40 preguntas al azar de un banco de 81 sobre Windows Server y Active Directory, y las corrige al momento.</p>
+        <p>La hice para estudiar y la compartí con mis compañeros de clase.</p>
+        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        <a class="link" href="https://andrew8967.github.io/SOR-test01/" target="_blank" rel="noopener">Probar el simulador</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ Formación ============ -->
+  <section class="block" id="formacion">
+    <h2 class="reveal">Formación</h2>
+    <div class="edu">
+      <div class="edu-main reveal">
+        <h3>Grado Medio de Sistemas Microinformáticos y Redes</h3>
+        <p class="where">IES Ribera del Tajo, Talavera de la Reina. De 2025 a 2027, 2º curso en marcha.</p>
+        <p>Este curso: sistemas operativos en red, seguridad informática y computación en la nube, con el curso y los laboratorios de AWS Academy.</p>
+        <p>Antes: Educación Secundaria Obligatoria, completada.</p>
+      </div>
+      <div class="grades reveal">
+        <h3>Mis mejores notas de 1º</h3>
+        <ul>
+          <li><span>Proyecto intermodular</span><b>9</b><i style="--v:.9"></i></li>
+          <li><span>Montaje y mantenimiento de equipos</span><b>8</b><i style="--v:.8"></i></li>
+          <li><span>Redes locales</span><b>8</b><i style="--v:.8"></i></li>
+          <li><span>Aplicaciones web</span><b>8</b><i style="--v:.8"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Habilidades ============ -->
+  <section class="block" id="habilidades">
+    <h2 class="reveal">Lo que sé hacer</h2>
+    <figure class="photo photo-band reveal">
+      <img src="img/hardware-placa.jpg" alt="Manos trabajando sobre una placa base" loading="lazy">
+      <figcaption class="float float-h">Montaje y mantenimiento de equipos: un 8</figcaption>
+    </figure>
+    <div class="skills">
+      <div class="reveal">
+        <h3>Sistemas</h3>
+        <ul>
+          <li>Windows y Linux (Debian)</li>
+          <li>Máquinas virtuales con VMware y QEMU</li>
+          <li>Seguridad en Windows: contraseñas, bloqueo de cuentas y auditoría</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3>Redes y hardware</h3>
+        <ul>
+          <li>Montaje y diagnóstico de equipos</li>
+          <li>Mantenimiento y reparación</li>
+          <li>Configuración de redes locales</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3>Web y datos</h3>
+        <ul>
+          <li>HTML, CSS y JavaScript</li>
+          <li>MySQL y Firebase</li>
+          <li>Git y GitHub</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3>Otras herramientas</h3>
+        <ul>
+          <li>Bash y Python, nivel básico</li>
+          <li>Word y Excel</li>
+          <li>n8n para automatizar tareas</li>
+        </ul>
+      </div>
+      <div class="learning reveal">
+        <h3>Aprendiendo ahora</h3>
+        <ul>
+          <li>Proxmox VE y contenedores LXC</li>
+          <li>Windows Server y Active Directory</li>
+          <li>Amazon Web Services</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <h3>Idiomas y trato</h3>
+        <ul>
+          <li>Español nativo, inglés B1</li>
+          <li>Atención al cliente</li>
+          <li>Trabajo en equipo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contacto ============ -->
+  <section class="contact reveal" id="contacto">
+    <h2>¿Tenéis hueco para un alumno en prácticas?</h2>
+    <p>Son 420 horas desde el 15 de febrero de 2027, en Talavera de la Reina o alrededores. Del convenio se encarga el instituto. Contesto antes por correo.</p>
+    <div class="contact-mail">
+      <a href="mailto:andresdavid.olartemolina@riberadeltajo.es" id="mailText">andresdavid.olartemolina@riberadeltajo.es</a>
+      <button class="btn btn-solid" id="copyBtn" type="button">Copiar correo</button>
+    </div>
+    <ul class="contact-links">
+      <li><a href="https://github.com/Andrew8967" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/andres-olarte-molina-1b459231a/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="CV_Andres_Olarte_Molina.pdf" download>CV en PDF</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span>Andrés Olarte Molina</span>
+  <span>Fotos de apoyo de Pexels. Talavera de la Reina, <span id="year">2026</span></span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
